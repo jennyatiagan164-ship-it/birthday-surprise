@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>For You Baby 💜</title>
+
+<style>
+
+body{
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg,#8e44ad,#c39bd3);
+text-align:center;
+padding-top:100px;
+color:white;
+}
+
+.container{
+background:white;
+color:#5b2c6f;
+width:80%;
+max-width:500px;
+margin:auto;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 25px rgba(0,0,0,0.2);
+}
+
+button{
+padding:12px 25px;
+margin:10px;
+border:none;
+border-radius:20px;
+font-size:16px;
+cursor:pointer;
+}
+
+.yes{
+background:#8e44ad;
+color:white;
+}
+
+.no{
+background:#bbb;
+color:white;
+}
+
+#message{
+display:none;
+margin-top:20px;
+line-height:1.6;
+}
+
+img{
+width:200px;
+border-radius:15px;
+margin-top:15px;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="container">
+
+<h2>Hi Baby 💜</h2>
+<p>I made something for you...</p>
+
+<p>Do you want to open your birthday message? 🎁</p>
+
+<button class="yes" onclick="showMessage()">Yes 💜</button>
+<button class="no" onclick="noMessage()">No 🙈</button>
+
+<div id="message">
+
+<img src="photo.jpg">
+
+<p>
+Happy 19th Birthday, baby. I don’t know what to say but I just want to remind u that i’m so grateful that i have u wab, and as you 19 today, i hope it brings you happiness, more blessings and success baby. I hope you achieve all your dreams in your life (with me). Remember that no matter what happens, i will always be here for you baby. Enjoy your day baby. Happy 19th birthday again, baby. Iloveyousomuch.
+</p>
+
+</div>
+
+</div>
+
+<script>
+
+function showMessage(){
+document.getElementById("message").style.display="block";
+}
+
+function noMessage(){
+alert("Aww baby 😭 please press YES 💜");
+}
+
+</script>
+
+</body>
+</html>
